@@ -1,4 +1,9 @@
 extends layout
 
 block content
-  h1= "File List"
+  p #{message}
+  ol
+    each result in results
+      li= result
+
+
