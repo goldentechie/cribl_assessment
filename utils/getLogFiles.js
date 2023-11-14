@@ -1,20 +1,21 @@
 const fs = require('fs');
 
-const getLogFiles = () => {
+const getLogFiles = (req, res, next) => {
   try {
     const logFiles = fs.readdirSync(process.env.LOG_DIR).filter(file=>file.endsWith(".log"));
-    return {
+    req.logFiles = {
       files: logFiles,
       message: `${logFiles.length} log file(s).`,
       succeed: true
     }
   } catch (e) {
-    return {
-      files: null,
+    req.logFiles = {
+      files: [],
       message: e.message,
       succeed: true
     }
   }
+  next();
 }
 
 module.exports = getLogFiles;

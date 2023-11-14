@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= "File List"
+  p #{message}
+  ul
+    each file in files
+      li= file
