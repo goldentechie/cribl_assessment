@@ -1,0 +1,61 @@
+Nov 12 01:53:43 ip-172-31-16-82 sshd[21568]: Disconnected from invalid user vps 124.222.47.200 port 34474 [preauth]
+Nov 12 01:54:38 ip-172-31-16-82 sshd[21566]: fatal: Timeout before authentication for 124.222.47.200 port 53678
+Nov 12 01:54:44 ip-172-31-16-82 sshd[21572]: Invalid user guest from 124.222.47.200 port 43532
+Nov 12 01:54:44 ip-172-31-16-82 sshd[21572]: Received disconnect from 124.222.47.200 port 43532:11: Bye Bye [preauth]
+Nov 12 01:54:44 ip-172-31-16-82 sshd[21572]: Disconnected from invalid user guest 124.222.47.200 port 43532 [preauth]
+Nov 12 01:55:10 ip-172-31-16-82 sshd[21567]: fatal: Timeout before authentication for 124.222.47.200 port 58422
+Nov 12 01:56:12 ip-172-31-16-82 sshd[21570]: fatal: Timeout before authentication for 124.222.47.200 port 38550
+Nov 12 01:56:23 ip-172-31-16-82 sshd[21576]: Invalid user jenkins from 124.222.47.200 port 56526
+Nov 12 01:56:23 ip-172-31-16-82 sshd[21576]: Received disconnect from 124.222.47.200 port 56526:11: Bye Bye [preauth]
+Nov 12 01:56:23 ip-172-31-16-82 sshd[21576]: Disconnected from invalid user jenkins 124.222.47.200 port 56526 [preauth]
+Nov 12 01:57:14 ip-172-31-16-82 sshd[21574]: fatal: Timeout before authentication for 124.222.47.200 port 47522
+Nov 12 01:57:49 ip-172-31-16-82 sshd[21575]: fatal: Timeout before authentication for 124.222.47.200 port 51636
+Nov 12 01:58:01 ip-172-31-16-82 sshd[21582]: Invalid user vps from 124.222.47.200 port 41692
+Nov 12 01:58:01 ip-172-31-16-82 sshd[21582]: Received disconnect from 124.222.47.200 port 41692:11: Bye Bye [preauth]
+Nov 12 01:58:01 ip-172-31-16-82 sshd[21582]: Disconnected from invalid user vps 124.222.47.200 port 41692 [preauth]
+Nov 12 01:58:58 ip-172-31-16-82 sshd[21578]: fatal: Timeout before authentication for 124.222.47.200 port 60720
+Nov 12 01:59:06 ip-172-31-16-82 sshd[21586]: Invalid user guest from 124.222.47.200 port 50126
+Nov 12 01:59:06 ip-172-31-16-82 sshd[21586]: Received disconnect from 124.222.47.200 port 50126:11: Bye Bye [preauth]
+Nov 12 01:59:06 ip-172-31-16-82 sshd[21586]: Disconnected from invalid user guest 124.222.47.200 port 50126 [preauth]
+Nov 12 01:59:28 ip-172-31-16-82 sshd[21580]: fatal: Timeout before authentication for 124.222.47.200 port 36558
+Nov 12 01:59:43 ip-172-31-16-82 sshd[21581]: fatal: Timeout before authentication for 101.33.235.237 port 44814
+Nov 12 02:00:06 ip-172-31-16-82 sshd[21590]: Invalid user web from 124.222.47.200 port 58590
+Nov 12 02:00:06 ip-172-31-16-82 sshd[21590]: Received disconnect from 124.222.47.200 port 58590:11: Bye Bye [preauth]
+Nov 12 02:00:06 ip-172-31-16-82 sshd[21590]: Disconnected from invalid user web 124.222.47.200 port 58590 [preauth]
+Nov 12 02:00:28 ip-172-31-16-82 sshd[21584]: fatal: Timeout before authentication for 124.222.47.200 port 45302
+Nov 12 02:01:09 ip-172-31-16-82 sshd[21592]: Invalid user guest from 124.222.47.200 port 39098
+Nov 12 02:01:10 ip-172-31-16-82 sshd[21592]: Received disconnect from 124.222.47.200 port 39098:11: Bye Bye [preauth]
+Nov 12 02:01:10 ip-172-31-16-82 sshd[21592]: Disconnected from invalid user guest 124.222.47.200 port 39098 [preauth]
+Nov 12 02:01:35 ip-172-31-16-82 sshd[21588]: fatal: Timeout before authentication for 124.222.47.200 port 54276
+Nov 12 02:03:49 ip-172-31-16-82 sshd[21597]: Unable to negotiate with 23.239.10.61 port 46166: no matching host key type found. Their offer: ssh-dss [preauth]
+Nov 12 02:03:49 ip-172-31-16-82 sshd[21598]: Connection closed by 23.239.10.61 port 46182 [preauth]
+Nov 12 02:03:50 ip-172-31-16-82 sshd[21599]: Connection closed by 23.239.10.61 port 46196 [preauth]
+Nov 12 02:03:50 ip-172-31-16-82 sshd[21595]: Connection closed by 23.239.10.61 port 46212 [preauth]
+Nov 12 02:03:50 ip-172-31-16-82 sshd[21596]: Unable to negotiate with 23.239.10.61 port 46216: no matching host key type found. Their offer: sk-ecdsa-sha2-nistp256@openssh.com [preauth]
+Nov 12 02:03:50 ip-172-31-16-82 sshd[21594]: Unable to negotiate with 23.239.10.61 port 46226: no matching host key type found. Their offer: sk-ssh-ed25519@openssh.com [preauth]
+Nov 12 02:05:33 ip-172-31-16-82 sshd[21607]: error: kex_exchange_identification: Connection closed by remote host
+Nov 12 02:05:33 ip-172-31-16-82 sshd[21607]: Connection closed by 206.189.208.132 port 51452
+Nov 12 02:11:35 ip-172-31-16-82 sshd[21609]: error: kex_exchange_identification: Connection closed by remote host
+Nov 12 02:11:35 ip-172-31-16-82 sshd[21609]: Connection closed by 146.190.53.129 port 49866
+Nov 12 02:17:01 ip-172-31-16-82 CRON[21611]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 12 02:17:01 ip-172-31-16-82 CRON[21611]: pam_unix(cron:session): session closed for user root
+Nov 12 02:18:51 ip-172-31-16-82 sshd[21615]: Invalid user ossuser from 146.190.53.129 port 58822
+Nov 12 02:18:51 ip-172-31-16-82 sshd[21615]: Connection closed by invalid user ossuser 146.190.53.129 port 58822 [preauth]
+Nov 12 02:20:14 ip-172-31-16-82 sshd[21617]: Invalid user developer from 43.156.16.109 port 57052
+Nov 12 02:20:14 ip-172-31-16-82 sshd[21617]: Received disconnect from 43.156.16.109 port 57052:11: Bye Bye [preauth]
+Nov 12 02:20:14 ip-172-31-16-82 sshd[21617]: Disconnected from invalid user developer 43.156.16.109 port 57052 [preauth]
+Nov 12 02:21:00 ip-172-31-16-82 sshd[21619]: Invalid user gpadmin from 115.245.120.238 port 42028
+Nov 12 02:21:00 ip-172-31-16-82 sshd[21619]: Received disconnect from 115.245.120.238 port 42028:11: Bye Bye [preauth]
+Nov 12 02:21:00 ip-172-31-16-82 sshd[21619]: Disconnected from invalid user gpadmin 115.245.120.238 port 42028 [preauth]
+Nov 12 02:22:05 ip-172-31-16-82 sshd[21622]: Invalid user dmdba from 34.133.86.38 port 44974
+Nov 12 02:22:05 ip-172-31-16-82 sshd[21622]: Received disconnect from 34.133.86.38 port 44974:11: Bye Bye [preauth]
+Nov 12 02:22:05 ip-172-31-16-82 sshd[21622]: Disconnected from invalid user dmdba 34.133.86.38 port 44974 [preauth]
+Nov 12 02:22:34 ip-172-31-16-82 sshd[21624]: Invalid user zabbix from 43.153.93.20 port 60600
+Nov 12 02:22:34 ip-172-31-16-82 sshd[21624]: Received disconnect from 43.153.93.20 port 60600:11: Bye Bye [preauth]
+Nov 12 02:22:34 ip-172-31-16-82 sshd[21624]: Disconnected from invalid user zabbix 43.153.93.20 port 60600 [preauth]
+Nov 12 02:23:08 ip-172-31-16-82 sshd[21626]: Invalid user centos from 94.228.163.98 port 55718
+Nov 12 02:23:08 ip-172-31-16-82 sshd[21626]: Received disconnect from 94.228.163.98 port 55718:11: Bye Bye [preauth]
+Nov 12 02:23:08 ip-172-31-16-82 sshd[21626]: Disconnected from invalid user centos 94.228.163.98 port 55718 [preauth]
+Nov 12 02:24:58 ip-172-31-16-82 sshd[21630]: Invalid user kali from 34.133.86.38 port 34516
+Nov 12 02:24:58 ip-172-31-16-82 sshd[21630]: Received disconnect from 34.133.86.38 port 34516:11: Bye Bye [preauth]
+Nov 12 02:24:58 ip-172-31-16-82 sshd[21630]: Disconnected from invalid user kali 34.133.86.38 port 34516 [preauth]
