@@ -17,7 +17,7 @@ const readLog = require('../utils/readLog');
 router.get('/files', getLogFiles, function (req, res, next) {
   if (req.query.type == "view")
     res.render('filelist', req.logFiles);
-  else res.send(req.logFiles);
+  else res.status(200).send(req.logFiles);
 });
 
 /*
@@ -37,7 +37,7 @@ router.get('/search', getLogFiles, searchValidator, function (req, res, next) {
     if (! files.includes(req.query.filename)) res.render('search', { message: "File not found.", results:[]});
     else res.render('search', { message: "Results:", results: logs});
   } else {
-    res.send({logs});
+    res.status(200).send({logs});
   }
 });
 
